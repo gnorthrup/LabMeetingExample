@@ -1,6 +1,6 @@
-setwd("~/Desktop/berkeley/Boots Lab/LabMeetingExample")
+setwd("~/Desktop/berkeley/Boots Lab/LabMeetingExample") #Working directory!
 
-NUMSAMPLES <- 1000000 #total number of samples
+NUMSAMPLES <- 10000 #total number of samples
 DICESIZE <- 20
 
 set.seed(1) #set your seed
@@ -23,4 +23,9 @@ time <- Sys.time()
 png(filename = paste("plots/Histogram of advantage,",time))
 hist(advantage,main=paste("Histogram of advantage,",time))#plot them
 dev.off()
+
+###########
+#Functions#
+###########
+
 
